@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .container{
+      margin: 2rem 5rem;
+      /* width: 1280; */
+      /* height: 116px; */
+  }
+  .card__navbar{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+      /* border: #B352FF solid;
+      width: 850px;
+      height: 116px; */
+
+  }    
+  .card__navbar .logo{
+      background: #FF6060;
+      width: 165px;
+      height: 63px;
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+      /* margin: auto; */
+      line-height: 63px;
+      /* vertical-align: middle; */
+  }
+
+  .nav a{
+      margin: auto 1rem;
+      text-decoration: none;
+      color: #000;
+  }
+  .button{
+      background: #B352FF;
+      width: 162px;
+      height: 59px;
+      text-align: center;
+      line-height: 59px;
+      text-decoration: none;
+      color: #fff;
+  }

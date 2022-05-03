@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .container{
+      margin: auto 18px;
+  }
+    /* cuadros celestes */
+
+
+  .card__cuadros-celestes{
+      display: flex;
+      justify-content: center;
+  }
+  .cuadro-celeste{
+      background: #66C8FF;
+      width: 244px;
+      height: 244px;
+      margin-top: 61px;
+      margin-left: 18px;
+  }
+
+  /* cuadros hex */
+
+  .card__cuadros-hex{
+      display: flex;
+      justify-content: center;
+  }
+
+  .card__cuadros-hex div{
+      background: #FF6666;
+      width: 402px;
+      height: 244px;
+      margin-top: 84px;      
+      margin-left: 18px;
+  }
+
+  /* cuadro azul y rosa claro */
+
+  .card__cuadros-azul{
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      background: #46599C;
+      width: 877px;
+      height: 717px;
+      margin-top: 84px;
+      margin-left: 24px;
+      margin-right: 24px;
+      /* text-align: center; */
+      position: absolute;
+      top: 100%;
+      left: 16%;
+  }
+  .rosa-claro{
+      padding: 3rem 0;
+      /* display: flex;
+      gap: 2rem; */
+  }
+  
+  .rosa{
+      background: #DE8080;
+      width: 357px;
+      height: 244px;
+      margin: 3rem 260px;
+  }
+  

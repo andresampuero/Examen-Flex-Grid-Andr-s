@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* rosa */
+
+  .card__grid{
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(1, 196px 110px);
+      grid-template-rows: 2fr 1fr;
+      margin: 2rem;
+      /* Width: 718px; */
+      /* Height: 609px;     */
+      align-items: center;
+      justify-content: center;
+  }
+  .rosa{
+    background: #FF8181;
+    width: 196px;
+    height: 343px;
+    grid-row: 1/2;
+   
+  }
+  .cuadros-gris{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+  }
+  .gris{
+    background: #646464;
+    width: 196px;
+    height: 163px;
+  }
+  .celeste{
+    background: #70AAFF;
+    width: 622px;
+    height: 163px;
+    grid-column: 2/1;
+  }
